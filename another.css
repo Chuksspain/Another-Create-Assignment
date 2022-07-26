@@ -583,18 +583,59 @@ section {
 .fig {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 150px;
 }
 
 .best-quality {
     display: flex;
     flex-direction: column;
     width: 400px;
+    gap: 15px;
 }
 
 .iconn {
     display: flex;
     align-self: center;
     width: 50px;
-    color: ;
+    background-color: white;
+}
+
+.oo {
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.numb {
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.pro-farm {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ipesum {
+    font-size: 20px;
+    color: grey;
+}
+
+.section8 {
+    min-height: 80vh;
+    display: flex;
+    padding: 70px 60px 0 59px;
+    background-color: black;
+    flex-direction: column;
+    padding-bottom: 120px;
+    justify-content: space-between;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 500px;
 }
