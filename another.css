@@ -597,7 +597,7 @@ section {
     display: flex;
     align-self: center;
     width: 50px;
-    background-color: white;
+    color: white;
 }
 
 .oo {
@@ -740,4 +740,20 @@ section {
 .brief {
     font-size: 19px;
     color: gray;
+}
+
+/* Mobile phone only styling goes here */
+@media screen and (max-width: 600px) {
+
+    .placement,
+    .image-log,
+    .professional-farmers {
+        flex-direction: column;
+    }
+
+    .p-farmers {
+        max-width: 100%;
+    }
+
+
 }
